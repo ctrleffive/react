@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
 class Form extends Component {
   constructor(props) {
@@ -10,6 +11,10 @@ class Form extends Component {
     }
 
     this.state = this.initialState
+  }
+
+  static propTypes = {
+    dataSubmit: PropTypes.func.isRequired
   }
 
   dataChange = event => {

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
 const TableHeader = () => {
   return (
@@ -26,8 +27,17 @@ const TableBody = props => {
   })
   return <tbody>{rows}</tbody>
 }
+TableBody.propTypes = {
+  data: PropTypes.array.isRequired,
+  removePerson: PropTypes.func.isRequired
+}
 
 class Table extends Component {
+  static propTypes = {
+    data: PropTypes.array.isRequired,
+    removePerson: PropTypes.func.isRequired
+  }
+
   render() {
     const { data, removePerson } = this.props
 
