@@ -7,7 +7,8 @@
           "request": "launch",
           "url": "http://localhost:3000",
           "webRoot": "${workspaceRoot}/src",
-          "userDataDir": false
+          "userDataDir": false,
+          "preLaunchTask": "react"
       }
   ]
 }
