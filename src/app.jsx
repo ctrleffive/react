@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Table from '../components/Table/Table'
-import Form from '../components/Form/Form'
+import Table from './components/table'
+import Form from './components/form'
 
 class App extends Component {
   state = {
