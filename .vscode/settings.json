@@ -2,5 +2,10 @@
   "files.autoSave": "off",
   "editor.formatOnSave": true,
   "eslint.autoFixOnSave": true,
-  "cSpell.words": ["browserslist"]
+  "cSpell.words": [
+    "browserslist"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
