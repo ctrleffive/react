@@ -1,7 +1,7 @@
 {
-  "name": "benfocus",
+  "name": "gatsby-boilerplate",
   "private": false,
-  "description": "Ben Focus",
+  "description": "Gatsby Boilerplate",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
@@ -36,9 +36,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ctrleffive/benfocus"
+    "url": "https://github.com/ctrleffive/gatsby-boilerplate"
   },
   "bugs": {
-    "url": "https://github.com/ctrleffive/benfocus/issues"
+    "url": "https://github.com/ctrleffive/gatsby-boilerplate/issues"
   }
 }
